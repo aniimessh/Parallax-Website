@@ -41,9 +41,10 @@ a:hover{
     transform: translateZ(-30px) scale(6);
 }
 
-.forground{
+.foreground{
     transform: translateZ(-20px) scale(3);
-    position: fixed;
+    position:absolute;
+    height: 100vh;
 }
 
 .background{
