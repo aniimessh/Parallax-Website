@@ -1,4 +1,4 @@
-# Parallex-Website
+# Parallax-Website
 
 # This Website is blogging WebPage which is designed using HTML & CSS with 3D effect with.
 
