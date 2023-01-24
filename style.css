@@ -1,0 +1,209 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+a{
+    text-decoration: none;
+    font-weight: 600;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: black;
+    text-shadow: 0 0 15px whitesmoke;
+    margin: 20px;
+}
+
+a:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+#wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+    perspective: 10px;
+
+}
+
+.container{
+    position: relative;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform-style: preserve-3d;
+    z-index: -1;
+}
+
+.background{
+    transform: translateZ(-40px) scale(6);
+}
+
+.forground{
+    transform: translateZ(-20px) scale(3);
+}
+
+.background, .forground{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+h1{
+    position: absolute;
+    font-size: 6rem;
+    transform: translateX(-50%);
+    letter-spacing: 4px;
+    left: 50%;
+    top: 23rem;
+    color: white;
+    /* border: 1px solid black; */
+    z-index: 1;
+    text-transform: uppercase;
+    text-shadow: 0 0 10px rgb(0,0,0,0.3);
+}
+
+.A:hover{
+    transform: translateX(40%);
+}
+
+section{
+    background-color: white;
+    /* background-color: rgb(45,45,45); */
+    color: black;
+    padding: 1rem 0;
+    box-shadow: 0 0 10px rgb(0,0,0);
+}
+
+.head{
+    font-size: 5rem;
+    padding: 0 10rem;
+    margin: 2rem 0;
+}
+
+.txt{
+    font-size: 1.5rem;
+    padding: 0 10rem;
+    margin: 5rem 0;
+    text-align: justify;
+}
+
+.txt-p{
+    font-size: 1.5rem;
+    font-weight: 600;
+    padding: 0 10rem;
+    margin: 5rem 0;
+    text-align: justify;
+}
+
+.head2{
+    position: absolute;
+    background-color: white;
+    padding: 0.5rem 2.5rem;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    color: black;
+    font-size: 3.5rem;
+    font-weight: bold;
+    box-shadow: 0 0 10px grey;;
+}
+
+.bg{
+    position: relative;
+    width: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.bg1{
+    background-image: url(./Images/Onepice_BG);
+}
+
+.bg2{
+    background-image: url(./Images/Naruto\ Wallpaper.jfif);
+}
+
+.bg3{
+    background-image: url(./Images/Demon\ Slayer\ .jfif);
+}
+
+.bg4{
+    background-image: url(./Images/DeathNote.png);
+}
+
+.bg5{
+    background-image: url(./Images/Jujustu.jfif);
+}
+
+footer{
+    background-color: aliceblue;
+    border-top:1px solid black ;
+}
+
+.foothead,.foot{
+    color: black;
+    font-size: 1.5rem;
+    padding: 0 10rem;
+    /* border: 1px solid black; */
+    justify-content: center;
+    display: flex;
+    /* margin: 5rem 0; */
+}
+
+.foot{
+    /* margin-top: 1%; */
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    /* border: 1px solid black; */
+}
+
+.footsec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+hr{
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 1%;
+}
+
+.name{
+    font-size:medium;
+}
+
+.bi-person-fill{
+    color:black;
+}
+
+.author{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    /* margin-top: 0%; */
+    margin-left: 45%;
+    margin-right: 45%;
+    margin-bottom: 5%;
+    background-color: white;
+    border: 1px solid black;
+    color: black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.author:hover{
+    transform: scale(1.1);
+    transition: 0.9s;
+    box-shadow: 0 0 10px rgb(0,0,0,0.3);
+}
+
