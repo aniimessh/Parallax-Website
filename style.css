@@ -38,18 +38,19 @@ a:hover{
 }
 
 .background{
-    transform: translateZ(-40px) scale(6);
+    transform: translateZ(-30px) scale(6);
 }
 
 .forground{
     transform: translateZ(-20px) scale(3);
+    position: fixed;
 }
 
-.background, .forground{
+.background{
     position: absolute;
     height: 100%;
     width: 100%;
-    object-fit: cover;
+    object-fit:cover;
     z-index: -1;
 }
 
